@@ -1,26 +1,49 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #faf7f0;
+  --card: #ffffff;
+  --ink: #1c2b24;
+  --ink-soft: #5c6b62;
+  --line: #e6dfd0;
+  --green: #14684a;
+  --green-deep: #0d4a34;
+  --green-tint: #e7f1ec;
+  --deal: #e4572e;
+  --deal-tint: #fdeae2;
+  --gold: #b9861f;
+  --gold-tint: #f9f0da;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-green: var(--green);
+  --color-green-deep: var(--green-deep);
+  --color-green-tint: var(--green-tint);
+  --color-deal: var(--deal);
+  --color-deal-tint: var(--deal-tint);
+  --color-gold: var(--gold);
+  --color-gold-tint: var(--gold-tint);
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-instrument);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-instrument), system-ui, sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.font-display {
+  font-family: var(--font-fraunces), Georgia, serif;
+}
+
+::selection {
+  background: var(--green);
+  color: #fff;
 }
