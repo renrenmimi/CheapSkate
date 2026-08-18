@@ -6,6 +6,10 @@ student/military/healthcare discount, and what your own credit cards add on
 top. Or just search any product and find out where it's *actually* cheapest
 after everything stacks.
 
+![The deal feed — brands, promotions and card offers stacked](docs/cheapskate.jpg)
+
+*The deal feed — brands, promotions and card offers stacked*
+
 ## Features
 
 - **My Deals** (`/`) — your customized feed, **fetched live**. Follow any
