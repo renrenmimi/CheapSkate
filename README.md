@@ -39,7 +39,7 @@ after everything stacks.
 
 Seed data was verified on **2026-07-06** directly against portal pages and
 dated press sources — every rate carries a `sourceUrl` and a
-`verified/approximate` confidence flag. Notable real-world facts encoded:
+`verified/approximate` confidence flag. Facts encoded in the seed data:
 
 - Chanel participates in **no** cashback portal and never discounts.
 - Rakuten currently pays **8% on Nike** (elevated); TopCashback pays **10%**.
