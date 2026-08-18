@@ -1,4 +1,4 @@
-# CheapSkate — never pay sticker price
+# CheapSkate — what a product actually costs once the discounts stack
 
 A personal deal-stacking app: pick your favorite brands once, then see — in one
 place — every current promotion, cashback-portal rate, official coupon,
@@ -35,7 +35,7 @@ after everything stacks.
   prices for any product across retailers in real time, and links results back
   to the tracked stores so cashback stacking still applies.
 
-## Data honesty
+## Data sources
 
 Seed data was verified on **2026-07-06** directly against portal pages and
 dated press sources — every rate carries a `sourceUrl` and a
